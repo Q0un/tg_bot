@@ -1,0 +1,7 @@
+services:
+  my-bot:
+    container_name: my-bot
+    image: my-bot
+    network_mode: host
+    environment:
+      - TOKEN=${API_TOKEN}
